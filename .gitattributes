@@ -8,3 +8,4 @@ Makefile linguist-vendored
 *.cs.meta linguist-vendored
 *.meta linguist-vendored
 UNITY/RC3/*.cs linguist-vendored
+UNITY/RC3/Library/*.cs linguist-language=ignore
