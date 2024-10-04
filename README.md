@@ -2,6 +2,8 @@
 
 A virtual Rubik's Cube implemented using the **Kociemba algorithm** for solving scrambled states. This project offers an interactive 3D simulation of a Rubik's Cube that you can scramble, manipulate manually, and solve. The solution is computed using the Kociemba two-phase algorithm, widely known for its efficiency in solving Rubik's cubes with minimal moves.
 
+Deployment: This project is deployed using a WebGL server with Node.js alongside GitHub Pages for hosting the live demo.
+
 **Heavily Inspired by:** [@Megalomobile](https://www.megalomobile.com/)
 
 **[Click here for the Live Demo](https://mummanajagadeesh.github.io/v-cube-host/)**
