@@ -20,6 +20,14 @@ Deployment: This project is deployed using a WebGL server with Node.js alongside
 |:-------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------:|
 | [Unity 3D Simulation](https://www.youtube.com/watch?v=L4s2YYyi-70)                                              | [Blender Simulation](https://www.youtube.com/watch?v=pQN5wu2dtTQ)                                                      |
 
+## Project Overview
+
+This project leverages the pre-existing **Kociemba two-phase algorithm** for Rubik's Cube solving, and our main contribution has been the seamless integration of this algorithm into a Unity-based simulation. The role of the solver is crucial, as it computes the solution when a scrambled cube is presented.
+
+We designed the system to fetch cube states directly from the user interface, where users can scramble or manipulate the cube. Upon clicking the "Solve" button, the Kociemba algorithm works under the hood to generate an optimal solution, which is then passed to the Unity engine. The Unity environment simulates this solution visually, step by step, allowing users to see the cube's transformation in real-time.
+
+The **Blender solution demo** featured here is purely a visual mockup, simulating how the cube might appear when following a solved sequence. It serves as a demonstration for visual feedback but has no direct involvement in the solving process or algorithm implementation. This is an intermediate step showcasing the solution process and will be further integrated into Unity for enhanced user interaction.
+
 ## Controls
 
 - **Right Click + Drag**: Rotate the entire cube in 3D space.
@@ -55,6 +63,17 @@ This project uses the **Kociemba two-phase algorithm**, which is an optimized ap
 
 - The first time you run the solver, it may take longer due to the initial calculation of move tables.
 - Subsequent solves will be faster as the tables are cached.
+
+## Future Goals
+
+We have exciting plans for the future of this project:
+
+- **Hardware Integration**: The next step is to bring this solution into the physical world. Using computer vision (CV) techniques, we aim to read the Rubik's Cube faces via a camera and translate the detected state into a solvable format.
+- **3D Design**: We are currently working on the 3D design of the hardware, which is under construction. This will involve a mechanism where gripper-like structures hold and manipulate the cube for solving.
+- **Optimization**: Another goal is to reduce the time required for solving, making the process as fast and efficient as possible.
+- **Physical Cube Solving**: Ultimately, the project will be able to solve a real Rubik's Cube using robotic structures that simulate the virtual environment.
+
+We are open to contributions from anyone interested in participating in this exciting journey. If you'd like to help us push the project forward, feel free to reach out!
 
 ## License
 
