@@ -6,7 +6,7 @@ Deployment: This project is deployed using a WebGL server with Node.js alongside
 
 **Heavily Inspired by:** [@Megalomobile](https://www.megalomobile.com/)
 
-**[Click here for the Live Demo](https://mummanajagadeesh.github.io/v-cube-host/)**
+**[Click here for the Live Demo](https://mummanajagadeesh.github.io/v-cube-host/) | [Vercel](https://v-cube-host.vercel.app/)**
 
 ## Features
 
